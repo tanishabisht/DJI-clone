@@ -14,6 +14,14 @@ body {
 .menu {
     text-decoration: none;
     color: #fff;
+    transition: all 0.1s linear;
+}
+
+.menu:hover {
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    padding-bottom: 5px;
+    transition: all 0.1s linear;
 }
 
 .heroCarouselImg {
@@ -73,6 +81,11 @@ body {
     background-image: url(./Images/anniversary.jpg);
 }
 
+.cardImg1:hover, .cardImg2:hover {
+    filter: grayscale(0%);
+    transition: all 0.4s linear;
+}
+
 .grayText {
     color: #aaa;
     font-weight: 300;
@@ -94,14 +107,25 @@ body {
     background-size: cover;
     text-align: center;
     color: #fff;
+    transition: all 0.2s linear;
+}
+
+.cardExplore:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s linear;
 }
 
 .cardExplore1 {
-    background-image: url(./Images/drone_marketing.jpg);
+    background-image: url(./Images/droneEnterprise_electricity.jpg);
 }
 
 .cardExplore2 {
-    background-image: url(./Images/drone_agri.png);
+    background-image: url(./Images/agridrone_news.jpg);
+}
+
+.cardExplore3 {
+    background-image: url(./Images/agridrone_stories.jpg);
 }
 
 .paddingTop5 {
@@ -133,11 +157,27 @@ body {
     margin-top: 50px;
     padding-top: 50px;
     font-size: 12px;
-    color: #eee;
+    color: #bbb;
     font-weight: 200;
 }
 
 .fa {
-    margin-left: 10px;
-    color: #eee;
+    color: #bbb;
+    padding: 8px;
+    border-radius: 50%;
+    transition: all 0.2s linear;
+}
+
+.fa:hover {
+    color: #fff;
+    background-color: #505253;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.footerMenu:hover {
+    color: #fff;
+    cursor: pointer;
 }
