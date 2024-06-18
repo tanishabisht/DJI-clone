@@ -1,6 +1,8 @@
-# SCRO
-Reacreate https://www.dji.com/
+# UI - DJI Clone
+This project is a recreation of the [DJI website](https://www.dji.com/).
 
 ## Demo
-- The site has been hosted using netlify. It is made using html and css.
-- The link to the site is: https://quizzical-euler-b49baf.netlify.app/
+![Demo not found](/demo.gif)
+
+## Technologies used
+`html` `css` `netlify`
